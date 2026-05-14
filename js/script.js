@@ -74,4 +74,18 @@ if (navToggle && navLinks) {
       }
     });
   });
+
+  const closeMobileMenu = () => {
+    if (navLinks.classList.contains('show')) {
+      navLinks.classList.remove('show');
+      navToggle.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    }
+  };
+
+  window.addEventListener('scroll', () => {
+    if (window.matchMedia('(max-width: 900px)').matches) {
+      closeMobileMenu();
+    }
+  });
 }
