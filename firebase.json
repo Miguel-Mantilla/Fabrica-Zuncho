@@ -1,7 +1,7 @@
 {
   
   "hosting": {
-    "site": "zunchosoluciones",
+    "site": "zunchosoluciones.com",
     "public": "public",
     "ignore": [
       "firebase.json",

@@ -46,7 +46,7 @@ if (form) {
       `Teléfono: ${phone}\n` +
       `Mensaje: ${message}`;
 
-    const whatsappNumber = "573054461826";
+    const whatsappNumber = "573175783375";
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
